@@ -37,15 +37,13 @@ type
     btnCancelar: TButton;
     procedure FormKeyPress(Sender: TObject; var Key: Char);
     procedure pageClick(Sender: TObject);
-    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
     FOperacao: TOperacao;
-    procedure Novo;
-    procedure Detalhar;
-    procedure Configuracoes;
   public
     { Public declarations }
+    procedure Novo;
+    procedure Detalhar;
   end;
 
 var
@@ -66,12 +64,6 @@ begin
   Close;
 end;
 
-procedure TfrmCadastroCliente.Configuracoes;
-begin
-  tbPesq.TabVisible := False;
-  tbDados.TabVisible := False;
-end;
-
 procedure TfrmCadastroCliente.Detalhar;
 begin
   FOperacao := opNavegar;
@@ -89,11 +81,6 @@ begin
     Perform(WM_NEXTDLGCTL, 0, 0)
   end;
 
-end;
-
-procedure TfrmCadastroCliente.FormShow(Sender: TObject);
-begin
-  Configuracoes;
 end;
 
 end.

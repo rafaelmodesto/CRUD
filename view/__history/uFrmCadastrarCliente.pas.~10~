@@ -8,7 +8,6 @@ uses
   Data.DB, Vcl.Grids, Vcl.DBGrids;
 
 type
-  TOperacao = (opNovo, opAlerar, opNavegar);
   TfrmCadastroCliente = class(TForm)
     pnlRodape: TPanel;
     page: TButton;
@@ -30,20 +29,10 @@ type
     edtDocumento: TLabeledEdit;
     edtTelefone: TLabeledEdit;
     lblTipo: TLabel;
-    pnlBtnsCad: TPanel;
-    btnListar: TButton;
-    btnAlterar: TButton;
-    btnGravar: TButton;
-    btnCancelar: TButton;
     procedure FormKeyPress(Sender: TObject; var Key: Char);
     procedure pageClick(Sender: TObject);
-    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
-    FOperacao: TOperacao;
-    procedure Novo;
-    procedure Detalhar;
-    procedure Configuracoes;
   public
     { Public declarations }
   end;
@@ -55,27 +44,9 @@ implementation
 
 {$R *.dfm}
 
-procedure TfrmCadastroCliente.Novo;
-begin
-  FOperacao := opNovo;
-  pgcPrincipal.ActivePage := tbDados;
-end;
-
 procedure TfrmCadastroCliente.pageClick(Sender: TObject);
 begin
   Close;
-end;
-
-procedure TfrmCadastroCliente.Configuracoes;
-begin
-  tbPesq.TabVisible := False;
-  tbDados.TabVisible := False;
-end;
-
-procedure TfrmCadastroCliente.Detalhar;
-begin
-  FOperacao := opNavegar;
-  pgcPrincipal.ActivePage := tbDados;
 end;
 
 procedure TfrmCadastroCliente.FormKeyPress(Sender: TObject; var Key: Char);
@@ -89,11 +60,6 @@ begin
     Perform(WM_NEXTDLGCTL, 0, 0)
   end;
 
-end;
-
-procedure TfrmCadastroCliente.FormShow(Sender: TObject);
-begin
-  Configuracoes;
 end;
 
 end.

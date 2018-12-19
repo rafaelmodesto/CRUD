@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.ComCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.ComCtrls,
+  Data.DB, Vcl.Grids, Vcl.DBGrids;
 
 type
   TfrmCadastroCliente = class(TForm)
@@ -13,6 +14,26 @@ type
     pgcPrincipal: TPageControl;
     tbPesq: TTabSheet;
     tbDados: TTabSheet;
+    pnlFiltro: TPanel;
+    edtPesquisar: TLabeledEdit;
+    btnPesquisar: TButton;
+    pnlBtnsPesq: TPanel;
+    btnNovo: TButton;
+    btnDetalhar: TButton;
+    btnExcluir: TButton;
+    DBGrid1: TDBGrid;
+    dsPesq: TDataSource;
+    edtNome: TLabeledEdit;
+    edtCodigo: TLabeledEdit;
+    cbxTipo: TComboBox;
+    edtDocumento: TLabeledEdit;
+    edtTelefone: TLabeledEdit;
+    lblTipo: TLabel;
+    pnlBtnsCad: TPanel;
+    btnListar: TButton;
+    btnAlterar: TButton;
+    btnGravar: TButton;
+    btnCancelar: TButton;
     procedure FormKeyPress(Sender: TObject; var Key: Char);
     procedure pageClick(Sender: TObject);
   private

@@ -12,7 +12,7 @@ object frmCadastroCliente: TfrmCadastroCliente
   Font.Style = []
   KeyPreview = True
   OldCreateOrder = False
-  Position = poMainFormCenter
+  Position = poScreenCenter
   OnKeyPress = FormKeyPress
   OnShow = FormShow
   PixelsPerInch = 96
