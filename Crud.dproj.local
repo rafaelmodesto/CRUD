@@ -1,12 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2018/12/18 22:07:20.123,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2018/12/18 22:09:52.990,C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\view\uFrmPrincipal.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2018/12/18 22:09:52.990,C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\view\uFrmPrincipal.dfm=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2018/12/18 22:10:46.769,C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Crud.dproj=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2018/12/18 22:12:44.306,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Unit1.pas</Transaction>
-    <Transaction>2018/12/18 22:13:19.828,C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\view\uFrmCadastrarCliente.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Unit1.pas</Transaction>
-    <Transaction>2018/12/18 22:13:19.828,C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\view\uFrmCadastrarCliente.dfm=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Unit1.dfm</Transaction>
+	<Transactions>
+    <Transaction>2018/12/18 22:07:20.000.123,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/12/18 22:09:52.000.990,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\view\uFrmPrincipal.pas</Transaction>
+    <Transaction>2018/12/18 22:09:52.000.990,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\view\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2018/12/18 22:10:46.000.769,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Crud.dproj</Transaction>
+    <Transaction>2018/12/18 22:12:44.000.306,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Unit1.pas</Transaction>
+    <Transaction>2018/12/18 22:13:19.000.828,C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Unit1.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\view\uFrmCadastrarCliente.pas</Transaction>
+    <Transaction>2018/12/18 22:13:19.000.828,C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Unit1.dfm=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\view\uFrmCadastrarCliente.dfm</Transaction>
+    <Transaction>2018/12/19 21:15:01.490,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Unit1.pas</Transaction>
+    <Transaction>2018/12/19 21:15:15.374,C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\model\uClienteModel.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Unit1.pas</Transaction>
+    <Transaction>2018/12/19 21:26:08.405,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Unit1.pas</Transaction>
+    <Transaction>2018/12/19 21:26:24.623,C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\controller\uClienteController.pas=C:\Users\USER\Documents\Embarcadero\Studio\Projects\CRUD\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
