@@ -11,6 +11,7 @@ object frmPrincipal: TfrmPrincipal
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  WindowState = wsMaximized
   PixelsPerInch = 96
   TextHeight = 13
   object Button1: TButton
@@ -20,5 +21,6 @@ object frmPrincipal: TfrmPrincipal
     Height = 80
     Caption = 'Cliente'
     TabOrder = 0
+    OnClick = Button1Click
   end
 end

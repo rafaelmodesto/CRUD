@@ -9,6 +9,7 @@ uses
 type
   TfrmPrincipal = class(TForm)
     Button1: TButton;
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -21,5 +22,12 @@ var
 implementation
 
 {$R *.dfm}
+
+uses uFrmCadastrarCliente;
+
+procedure TfrmPrincipal.Button1Click(Sender: TObject);
+begin
+  frmCadastroCliente.ShowModal;
+end;
 
 end.
